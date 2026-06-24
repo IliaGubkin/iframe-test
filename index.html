@@ -232,7 +232,12 @@
       </div>
     </div>
   </footer>
-
+<script>
+function openNewWindow () {
+  console.log('openNewWindow');
+  window.open('https://example.com/calculate', '_blank')
+}
+  document.addEventListener("DOMContentLoaded", openNewWindow);
+</script>
 </body>
-
 </html>
